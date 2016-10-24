@@ -10,7 +10,7 @@ the locations to the stream network in ArcGIS.
 
 
 ## Flowline Versions
-Three flowlines versions are used in the snapping process: 
+Three flowlines versions are used in the snapping process: <br>
 1. "detailed" - All inclusive high resolution flowlines 
 2. "truncated" - The high resolution flowlines trimmed to a 0.75 km<sup>2</sup> 
 drainage area threshold 
