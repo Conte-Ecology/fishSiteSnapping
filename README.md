@@ -31,29 +31,28 @@ because of case #2 below.
 Fish sample sites fall into one of four classifications outline below: 
 <br>
 
-1. Detailed Network Only - The point is on the "detailed" network (red), but 
-not on the "truncated" network (green).
-
+1.Detailed Network Only - The point is on the "detailed" network (red), but 
+not on the "truncated" network (green). 
 ![Figure 1](https://cloud.githubusercontent.com/assets/6216239/19661883/6a079f96-9a03-11e6-9cc7-48de14e87eeb.png) 
 <br>
 Figure 1: A site only on the detailed network
 <br><br>
 
-2. Undocumented Stream - The point is on a "dem" network (blue), but not 
+2.Undocumented Stream - The point is on a "dem" network (blue), but not 
 located on the "detailed" network (red).
 ![Figure 2](https://cloud.githubusercontent.com/assets/6216239/19661890/70277e5a-9a03-11e6-8b4e-05a0e7f566e8.png)
 <br>
 Figure 2: A site on an undocumented stream
 <br><br>
 
-3. Outside Buffer - Points are not near any of the network versions. These are 
+3.Outside Buffer - Points are not near any of the network versions. These are 
 accounted for by setting a snap distance.
 ![Figure 3](https://cloud.githubusercontent.com/assets/6216239/19661894/75e896e4-9a03-11e6-8351-1fc3235208fe.png)
 <br>
 Figure 3: A site outside of the maximum snapping distance
 <br><br>
 
-4. Truncated Network - The points are on all of the network versions. These 
+4.Truncated Network - The points are on all of the network versions. These 
 points are the ones kept for use with stream network analysis. 
 ![Figure 4](https://cloud.githubusercontent.com/assets/6216239/19661899/7aeff8c6-9a03-11e6-952b-2dbfae1b4844.png)
 <br>
