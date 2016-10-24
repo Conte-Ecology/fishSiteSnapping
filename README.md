@@ -26,12 +26,12 @@ because of case #2 below.
 
 
 ## Location Classification Types
-Fish sample sites fall into one of four classifications outline below:
+Fish sample sites fall into one of four classifications outline below: 
 1. Detailed Network Only - The point is on the "detailed" network (red), but 
 not on the "truncated" network (green).
 
 ![Figure 1](https://cloud.githubusercontent.com/assets/6216239/19661883/6a079f96-9a03-11e6-9cc7-48de14e87eeb.png)
-
+Figure 1: Example of a point only on the detailed network
 
 2. Undocumented Stream - The point is on a "dem" network (blue), but not 
 located on the "detailed" network (red).
