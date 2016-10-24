@@ -5,7 +5,10 @@ locations do not spatially align with the
 [NHDHRDV2](http://conte-ecology.github.io/shedsGisData/) stream network. Sample 
 locations were found to fall into four classifications, involving three 
 versions of flowlines. The processing steps outlined in this repository snap 
-the locations to the stream network in ArcGIS.
+the locations to the stream network in ArcGIS. The snapping effort is 
+specifically in support of the 
+[Network Analysis (Trout GRF) project](https://github.com/djhocking/Trout_GRF/tree/master/Code/createNetwork), 
+but may serve as a template for similar work in the future.
 <br><br>
 
 
@@ -55,7 +58,7 @@ Figure 3: A site outside of the maximum snapping distance
 <br><br>
 
 4. Truncated Network - The points are on all of the network versions. These 
-points are the ones kept for use with stream network analysis. 
+points are the ones kept for use with stream network analysis. <br>
 ![Figure 4](https://cloud.githubusercontent.com/assets/6216239/19661899/7aeff8c6-9a03-11e6-952b-2dbfae1b4844.png)
 <br>
 Figure 4: A site usable with the stream network analysis
@@ -66,20 +69,19 @@ Figure 4: A site usable with the stream network analysis
 The current breakdown of where the sample locations fall in relation to the 
 flowlines is listed in the table below. The maximum snapping distance was set 
 to 100m. Any points outside of this distance were left unsnapped. The sites in 
-the "Truncated Network" classification are the ones used in the 
-[Network Analysis (Trout GRF)](https://github.com/djhocking/Trout_GRF/tree/master/Code/createNetwork) 
-project. The points used are the observed occupancy sites from December 2013. 
-The whole process is scripted so it should be simple enough to update with new 
-sites as needed.
+the "Truncated Network" classification are the ones used in the network 
+analysis project. The points used are the observed occupancy sites from 
+December 2013. The whole process is scripted so it should be simple enough to 
+update with new sites as needed.
 
 | Location Classification  | Number of Sites |
-| :---------------------:  | :-------------: |
+| -----------------------  | :-------------: |
 | Detailed Network Only    | 1291            |
 | Outside 100 Meter Buffer | 1935            |
 | Truncated Network        | 33011	         |
 | Undocumented Stream	     | 529	           |
 | **Total Sites**	         | **36766**	     |
-Table 1: Sites classification
+Table 1: Classification of sites
 <br><br>
 
 
