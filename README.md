@@ -30,6 +30,7 @@ because of case #2 below.
 ## Location Classification Types
 Fish sample sites fall into one of four classifications outline below: 
 <br>
+
 1. Detailed Network Only - The point is on the "detailed" network (red), but 
 not on the "truncated" network (green).
 
@@ -53,8 +54,8 @@ Figure 3: A site outside of the maximum snapping distance
 <br><br>
 
 4. Truncated Network - The points are on all of the network versions. These 
-points are the ones kept for use with stream network analysis.
-[Figure 4](https://cloud.githubusercontent.com/assets/6216239/19661899/7aeff8c6-9a03-11e6-952b-2dbfae1b4844.png)
+points are the ones kept for use with stream network analysis. 
+![Figure 4](https://cloud.githubusercontent.com/assets/6216239/19661899/7aeff8c6-9a03-11e6-952b-2dbfae1b4844.png)
 <br>
 Figure 4: A site usable with the stream network analysis
 <br><br>
