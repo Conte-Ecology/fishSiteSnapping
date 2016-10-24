@@ -1,5 +1,5 @@
-Fish Sites Snapping
-===================
+Fish Site Snapping
+==================
 Examination of the observed occupancy points has shown that some of the 
 locations do not spatially align with the 
 [NHDHRDV2](http://conte-ecology.github.io/shedsGisData/) stream network. Sample 
@@ -8,7 +8,7 @@ versions of flowlines. The processing steps outlined in this repository snap
 the locations to the stream network in ArcGIS.
 
 
-# Flowline Versions
+## Flowline Versions
 Three flowlines versions are used in the snapping process:
 1. "detailed" - All inclusive high resolution flowlines
 2. "truncated" - The high resolution flowlines trimmed to a 0.75 km<sup>2</sup> 
@@ -25,10 +25,13 @@ NHD high resolution data but could still exist. These streams were considered
 because of case #2 below.
 
 
-# Location Classification Types
+## Location Classification Types
 Fish sample sites fall into one of four classifications outline below:
 1. Detailed Network Only - The point is on the "detailed" network (red), but 
 not on the "truncated" network (green).
+
+![Figure 1](https://cloud.githubusercontent.com/assets/6216239/19661883/6a079f96-9a03-11e6-9cc7-48de14e87eeb.png)
+
 
 2. Undocumented Stream - The point is on a "dem" network (blue), but not 
 located on the "detailed" network (red).
@@ -40,7 +43,7 @@ accounted for by setting a snap distance.
 points are the ones kept for use with stream network.
 
 
-# Classification Summary
+## Classification Summary
 The current breakdown of where the sample locations fall in relation to the 
 flowlines is listed in the table below. The maximum snapping distance was set 
 to 100m. Any points outside of this distance were left unsnapped. The sites in 
@@ -60,7 +63,7 @@ sites as needed.
 Table 1: Sites classification
 
 
-# Process Execution
+## Process Execution
 The snapping processing is carried out in the `mapOccupancySitesToNetwork.py` 
 script. Define the variables in the "Specify inputs" and execute the script in 
 Arc Python. 
@@ -75,6 +78,6 @@ Arc Python.
  points will be saved
 
 
-# Contact Info
+## Contact Info
 Kyle O'Neil  
 koneil@usgs.gov
